@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Dissatisfaction_Reason_Validation</fullName>
+    <active>true</active>
+    <description>enter e resason for dısccrıbtıon</description>
+    <errorConditionFormula>Satisfied__c  = FALSE
+ &amp;&amp; 
+
+
+ ISBLANK(Dissaticfaction_Reason__c )</errorConditionFormula>
+    <errorDisplayField>Dissaticfaction_Reason__c</errorDisplayField>
+    <errorMessage>Please write a reason for dissatisfaction</errorMessage>
+</ValidationRule>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Early_Checkout_Reason_Validation</fullName>
+    <active>true</active>
+    <errorConditionFormula>(Actual_Check_Out_Date__c &lt; Planned_Check_Out_Date__c )
+&amp;&amp;
+ISBLANK(Early_Checkout_Reason__c )</errorConditionFormula>
+    <errorDisplayField>Early_Checkout_Reason__c</errorDisplayField>
+    <errorMessage>Please write a reason for early checkout</errorMessage>
+</ValidationRule>

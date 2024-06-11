@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Consumable_Brand_VD</fullName>
+    <active>true</active>
+    <errorConditionFormula>ISBLANK(Consumable_Brand__c) 
+
+ &amp;&amp; 
+ RecordType.Name  = &apos;Consumable&apos;</errorConditionFormula>
+    <errorDisplayField>Consumable_Brand__c</errorDisplayField>
+    <errorMessage>If record type is Consumable, you should not leave this field blank</errorMessage>
+</ValidationRule>

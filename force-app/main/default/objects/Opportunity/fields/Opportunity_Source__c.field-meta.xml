@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Opportunity_Source__c</fullName>
+    <externalId>false</externalId>
+    <label>Opportunity Source</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Online Ad</fullName>
+                <default>false</default>
+                <label>Online Ad</label>
+            </value>
+            <value>
+                <fullName>Social Media</fullName>
+                <default>false</default>
+                <label>Social Media</label>
+            </value>
+            <value>
+                <fullName>Brochure</fullName>
+                <default>false</default>
+                <label>Brochure</label>
+            </value>
+            <value>
+                <fullName>Personal Recommendation</fullName>
+                <default>false</default>
+                <label>Personal Recommendation</label>
+            </value>
+            <value>
+                <fullName>Tour Guide/Agency</fullName>
+                <default>false</default>
+                <label>Tour Guide/Agency</label>
+            </value>
+            <value>
+                <fullName>Booking.com</fullName>
+                <default>false</default>
+                <label>Booking.com</label>
+            </value>
+            <value>
+                <fullName>Hotels.com</fullName>
+                <default>false</default>
+                <label>Hotels.com</label>
+            </value>
+            <value>
+                <fullName>Agoda.com</fullName>
+                <default>false</default>
+                <label>Agoda.com</label>
+            </value>
+            <value>
+                <fullName>Trivago</fullName>
+                <default>false</default>
+                <label>Trivago</label>
+            </value>
+            <value>
+                <fullName>Type</fullName>
+                <default>false</default>
+                <label>Type</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

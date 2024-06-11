@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Consumable1</fullName>
+    <active>true</active>
+    <label>Consumable1</label>
+    <picklistValues>
+        <picklist>Consumable_Type__c</picklist>
+        <values>
+            <fullName>Minibar</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Room Service</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Family</picklist>
+        <values>
+            <fullName>None</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>QuantityUnitOfMeasure</picklist>
+        <values>
+            <fullName>Each</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Room_Type__c</picklist>
+        <values>
+            <fullName>Deluxe Room</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Presidential Suite</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Standard Room</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Suite</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Room_View__c</picklist>
+        <values>
+            <fullName>City</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pool</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Refund_VR</fullName>
+    <active>true</active>
+    <errorConditionFormula>Refunded__c ==  true
+
+ &amp;&amp; 
+
+
+ ISBLANK(Refund_Reason__c )</errorConditionFormula>
+    <errorDisplayField>Refund_Reason__c</errorDisplayField>
+    <errorMessage>If refunded , the reason should be entered</errorMessage>
+</ValidationRule>
